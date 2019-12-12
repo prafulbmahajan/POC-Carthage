@@ -1,0 +1,55 @@
+This Application is created for Test Purpose.
+
+//**************************************************
+// MARK: - Requirements
+//**************************************************
+This Application is developed in -
+- Xcode - 11.1
+- Swift version - 5.0
+- iOS Deployment Target - 13.0
+
+//**************************************************
+// MARK: - Application Detail
+//**************************************************
+There are two screen in this app
+Screen 1 -
+i) It is a login screen.
+ii) Having Email and password textfield with Login button.
+iii) Is empty validation is added on email and password text field.
+
+Screen 2 -
+i) It is showing the list of User Activity.
+ii) Having Table view and a logout button on navigation right bar.
+
+
+//**************************************************
+// MARK: - Dependency Used
+//**************************************************
+In this application, I have used Kingfisher Framework as dependency for showing gif images.
+I have used carthage for the dependency framework, using Kingfisher ~> 5.0 version in this app.
+
+//**************************************************
+// MARK: - Testing
+//**************************************************
+Also I have writen one test case for User Activities APi call, in KisanHubTests module.
+
+//**************************************************
+// MARK: - Assests and icons
+//**************************************************
+The source of icons used in this app is - "https://icons8.com"
+
+//**************************************************
+// MARK: - NOTE
+//**************************************************
+Commented the print statment of API Request and response.
+
+If you want to print the log on console than need to uncomment the print statments.
+Here is the location of the print statments.
+1) RequestManager.swift
+Line number - 27 & 52
+
+2) APIConfiguration.swift
+Line number - 39 & 47
+
+3) XCTestCase+Extension.swift
+Line number - 28 & 32
