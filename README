@@ -31,7 +31,7 @@ I have used carthage for the dependency framework, using Kingfisher ~> 5.0 versi
 //**************************************************
 // MARK: - Testing
 //**************************************************
-Also I have writen one test case for User Activities APi call, in KisanHubTests module.
+Also I have writen one test case for User Activities APi call, in Tests module.
 
 //**************************************************
 // MARK: - Assests and icons
